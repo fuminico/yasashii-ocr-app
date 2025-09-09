@@ -1,0 +1,5 @@
+{
+  "name": "やさしいOCRさん (Gentle OCR)",
+  "description": "An application that extracts Japanese text from images, summarizes it, and provides warm, constructive feedback.",
+  "requestFramePermissions": []
+}
