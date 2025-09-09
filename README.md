@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# やさしさOCR
 
-# Run and deploy your AI Studio app
+画像を読み込み → OCR処理 → 要約 → 良い点を褒めて → 優しく修正案を提示する  
+日本語向けの温かみあるデザインのViteアプリです。
 
-This contains everything you need to run your app locally.
+## 技術スタック
+- Vite + React + TypeScript
+- Tailwind CSS
+- Tesseract.js (OCR)
+- OpenAI API (要約・フィードバック)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1WOzkQyUiisNZ326cdcLpfdj-RvdMrfW2
+## 機能
+- 画像アップロード（複数枚対応）
+- OCR処理（日本語対応）
+- LLMによる要約・褒め・修正案生成
+- 白背景×黒文字の見やすいUI
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## セットアップ
+```bash
+npm install
+npm run dev
